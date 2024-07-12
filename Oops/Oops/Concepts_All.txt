@@ -1,0 +1,88 @@
+﻿
+Concepts:
+class library project will have ".dll" extension
+console project will have ".exe" extension
+assmblies will created under bin folder of the project
+
+
+different access modifiers:
+private : are accessible only with in the same class
+can not access from other class. we can call this private from other methods
+or from construcor of the same class.
+methods/properties by default have private access modifier
+
+public: are accessible from any other class, we can use with in the class and outside of the class too
+we can use with in assembly and outside of the assembly
+
+internal: are accessible with in the same assembly, not outside of the assembly
+classes will have internal access modifier by default
+
+protected: are accessible with in the same class and by derived class
+we can access the protected methods outside of the class using child class object name.
+
+
+protected internal: combines both protected and internal, are accessible with in same assembly and by derived classes
+
+Exception Handling:
+Comiple time errors: we get these errors while bulding the application/project
+runtime errors: we get this errors at runtime or while running the program,
+these are called exceptions and if we don't handle them proepley program will be closed abnormally
+
+try block: the code that needs to be excuted will be inside the try block
+
+catch: when exception occurs the code with in catch block get executed
+if thre is no excpetion no excpetion blocks will be exceuted.
+program will go to next line after all the catch blocks
+if one catch block is executed it will skip all others
+
+
+ex.message property will give the error message
+ex.stacktrace property, will give class name and line number
+one try can have one or more than catch blocks
+but main exception block should be last one. other catch blocks should be before this catch block
+sample exceptions: DivideByZeroException, 
+
+finally, the code will be executed if there is an exception or there is no exception
+every time try block should come with one or more catch blocks or one finally block
+try, finally is allowed
+try, multiple catch is allowed
+try catch (one or more), finally allowed
+
+Exception is the class base class for all other exception classes
+
+Concepts:
+1. Lamda Expressions:  to write anonymous methods or in line functions
+ex: (parameters) => statements
+    parameters are optional, => separted paramters and statements
+
+2. var keyword: 
+2. linq : Language Inegrated Query
+In LINQ, you can write queries in two wa
+ys: in query syntax and method syntax.
+
+//query syntax:
+var : dynamic data type, at tun time this will get the data type based on the data
+
+query syntax:
+return type = from parameter in source
+              where , exprression to filer the data
+              select parameter;
+where and select are called operators
+
+var longLoudHeroes = from h in heroes
+  where h.Length > 6
+  select h.ToUpper();
+
+Method syntax: method calls on the collection we are querying:
+
+var longHeroes = heroes.Where(h => h.Length > 6);
+var longLoudHeroes = longHeroes.Select(h => h.ToUpper());
+
+//chain expressions
+var longLoudHeroes2 = heroes
+  .Where(h => h.Length > 6)
+  .Select(h => h.ToUpper());
+
+3) adding objects to list collection
+   ex: List<EmployeeDetails> empList = new List<EmployeeDetails>();
+

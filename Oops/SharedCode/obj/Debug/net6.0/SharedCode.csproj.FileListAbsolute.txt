@@ -1,0 +1,12 @@
+C:\Rama\WebProjects\Oops\SharedCode\bin\Debug\net6.0\SharedCode.deps.json
+C:\Rama\WebProjects\Oops\SharedCode\bin\Debug\net6.0\SharedCode.dll
+C:\Rama\WebProjects\Oops\SharedCode\bin\Debug\net6.0\SharedCode.pdb
+C:\Rama\WebProjects\Oops\SharedCode\obj\Debug\net6.0\SharedCode.csproj.AssemblyReference.cache
+C:\Rama\WebProjects\Oops\SharedCode\obj\Debug\net6.0\SharedCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Rama\WebProjects\Oops\SharedCode\obj\Debug\net6.0\SharedCode.AssemblyInfoInputs.cache
+C:\Rama\WebProjects\Oops\SharedCode\obj\Debug\net6.0\SharedCode.AssemblyInfo.cs
+C:\Rama\WebProjects\Oops\SharedCode\obj\Debug\net6.0\SharedCode.csproj.CoreCompileInputs.cache
+C:\Rama\WebProjects\Oops\SharedCode\obj\Debug\net6.0\SharedCode.dll
+C:\Rama\WebProjects\Oops\SharedCode\obj\Debug\net6.0\refint\SharedCode.dll
+C:\Rama\WebProjects\Oops\SharedCode\obj\Debug\net6.0\SharedCode.pdb
+C:\Rama\WebProjects\Oops\SharedCode\obj\Debug\net6.0\ref\SharedCode.dll

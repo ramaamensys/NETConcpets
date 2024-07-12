@@ -1,0 +1,17 @@
+C:\Rama\WebProjects\oopsConcepts\oopsConcepts\bin\Debug\net6.0-windows\oopsConcepts.exe
+C:\Rama\WebProjects\oopsConcepts\oopsConcepts\bin\Debug\net6.0-windows\oopsConcepts.deps.json
+C:\Rama\WebProjects\oopsConcepts\oopsConcepts\bin\Debug\net6.0-windows\oopsConcepts.runtimeconfig.json
+C:\Rama\WebProjects\oopsConcepts\oopsConcepts\bin\Debug\net6.0-windows\oopsConcepts.dll
+C:\Rama\WebProjects\oopsConcepts\oopsConcepts\bin\Debug\net6.0-windows\oopsConcepts.pdb
+C:\Rama\WebProjects\oopsConcepts\oopsConcepts\obj\Debug\net6.0-windows\oopsConcepts.csproj.AssemblyReference.cache
+C:\Rama\WebProjects\oopsConcepts\oopsConcepts\obj\Debug\net6.0-windows\oopsConcepts.Form1.resources
+C:\Rama\WebProjects\oopsConcepts\oopsConcepts\obj\Debug\net6.0-windows\oopsConcepts.csproj.GenerateResource.cache
+C:\Rama\WebProjects\oopsConcepts\oopsConcepts\obj\Debug\net6.0-windows\oopsConcepts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Rama\WebProjects\oopsConcepts\oopsConcepts\obj\Debug\net6.0-windows\oopsConcepts.AssemblyInfoInputs.cache
+C:\Rama\WebProjects\oopsConcepts\oopsConcepts\obj\Debug\net6.0-windows\oopsConcepts.AssemblyInfo.cs
+C:\Rama\WebProjects\oopsConcepts\oopsConcepts\obj\Debug\net6.0-windows\oopsConcepts.csproj.CoreCompileInputs.cache
+C:\Rama\WebProjects\oopsConcepts\oopsConcepts\obj\Debug\net6.0-windows\oopsConcepts.dll
+C:\Rama\WebProjects\oopsConcepts\oopsConcepts\obj\Debug\net6.0-windows\refint\oopsConcepts.dll
+C:\Rama\WebProjects\oopsConcepts\oopsConcepts\obj\Debug\net6.0-windows\oopsConcepts.pdb
+C:\Rama\WebProjects\oopsConcepts\oopsConcepts\obj\Debug\net6.0-windows\oopsConcepts.genruntimeconfig.cache
+C:\Rama\WebProjects\oopsConcepts\oopsConcepts\obj\Debug\net6.0-windows\ref\oopsConcepts.dll
