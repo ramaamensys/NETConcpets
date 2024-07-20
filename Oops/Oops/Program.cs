@@ -1,9 +1,15 @@
 ﻿using OopsConcpets;
 
 Console.WriteLine("Hello, World!");
+string text = "hello word test this";
+int count = text.wordCount();
+Console.WriteLine("word count " + count);
 
-LinqSamples linqSamples = new LinqSamples();
-linqSamples.UsingLinqSampeObjects();
+//StringBuilderSamples   sb = new StringBuilderSamples();
+//sb.UsingStringBuilder();
+
+/* LinqSamples linqSamples = new LinqSamples();
+linqSamples.UsingLinqSampeObjects(); */
 
 //linqSamples.LamdaExpressions();
 //linqSamples.UsingLinqSamples();

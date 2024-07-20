@@ -97,7 +97,14 @@ namespace OopsConcpets
             emp.name = "test2";
             empList.Add(emp);
 
-        
+
+            //third emp data
+            emp = new EmployeeDetails();
+            emp.age = 50;
+            emp.empid = 300;
+            emp.name = "test50";
+            empList.Add(emp);
+
             //loop through
             foreach (EmployeeDetails e in empList)
             {
@@ -106,7 +113,7 @@ namespace OopsConcpets
 
             //linq query
             var empresult = from e in empList
-                            where e.age > 30
+                            where e.age > 50
                             select e;
             //loop through
             foreach (EmployeeDetails e in empresult)
@@ -114,6 +121,48 @@ namespace OopsConcpets
                 Console.WriteLine("Filter Empid : " + e.empid + " name : " + e.name + " age :" + e.age);
             }
 
+
+            //firstordefault
+            var firstEmp = empList.FirstOrDefault(x => x.age >= 50);
+
+            try
+            {
+                var singleEmp = empList.SingleOrDefault(x => x.age <= 50);
+
+                if (singleEmp != null)
+                {
+                    //checking firstemp has data or not
+                    Console.WriteLine("printing the first employee with age : 50 Empid : " + singleEmp.empid + " name : " + singleEmp.name + " age :" + singleEmp.age);
+
+                }
+                else
+                {
+                    Console.WriteLine("Multiple values found");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Exception found " + ex.Message);
+            }
+
+
+            //checking firstemp has data or not
+            if (firstEmp != null)
+                Console.WriteLine("printing the first employee with age : 50 Empid : " + firstEmp.empid + " name : " + firstEmp.name + " age :" + firstEmp.age);
+
+
+            List<int> ints = new List<int> { 60, 2, 3, 50, 10 };
+            //60,50,10,3,2 -- order by descending
+            //skip(1), gives list of rest of elements except first one, 2, 3, 50, 10
+            //use the FirstOrDefault method
+
+            //skip first two elments and print rest
+            var resultList = ints.Skip(2);
+          
+            foreach (int x in resultList)
+            {
+                Console.WriteLine("return value after two numbers: " + x);
+            }
         }
     }
 }

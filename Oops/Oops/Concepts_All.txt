@@ -86,3 +86,41 @@ var longLoudHeroes2 = heroes
 3) adding objects to list collection
    ex: List<EmployeeDetails> empList = new List<EmployeeDetails>();
 
+ more LINQ mehtods:
+ 1) FirstOrDefault: select the first element from the list
+
+ 2) checking the object is null or not
+    if (firstEmp != null)
+
+3) signleorDefault: if i get mroe than one matches it will throws the exceptipn
+
+4) skip(value): it will skipe a specified number of elements based on value parameter
+
+5) orderby, it will be usefult for sorting
+   orderbydescending
+
+6) write a query to get the second highest number from the linq
+ex: var resttNum = ints.OrderbyDecding(n => n).skip(1).FirstOrDefault();
+
+7_ string vs string builder
+Stirng is immutable, once it is created it can't be changes
+
+varaible values will be stored in the memory
+String word = "test this"; memory addres: 23456
+word += " this is second string"; memory addess: 346789 
+
+string builder is mutable, allows to modify the value/content
+ex: StringBuilder sb = new StringBuilder("test this"); //sb vaiebale is created at memoey location 3456778
+            sb.Append(" this is second string "); //updated value will be located at same meomry location 3456778
+
+for single value string is better for mdofications then string builder is better
+
+Exptension Methods: add new methods to the existing class without modifying the original class
+Systax: it has to be a static method and static class and this keyword is required in the paramter
+after this keywrod u have to specify the targted class name
+
+public static int wordCount(this string str)
+        {
+            return str.Split(" ").Length;
+        }
+            
